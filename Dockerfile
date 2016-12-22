@@ -7,4 +7,4 @@ RUN apt-get update \
 	&& add-apt-repository ppa:team-gcc-arm-embedded/ppa \
 	&& apt-get update \
 	&& apt-get install -y gcc-arm-none-eabi git doxygen make python3 python3-pip \
-	&& pip3 install pep8
+	&& pip3 install pep8 pyflakes
